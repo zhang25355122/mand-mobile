@@ -4,7 +4,8 @@
   </div>
 </template>
 
-<script>import {Toast, Button} from 'mand-mobile'
+<script>
+import {Toast, Button} from 'mand-mobile'
 
 export default {
   name: 'toast-demo',
@@ -20,8 +21,9 @@ export default {
       Toast.loading('载入中')
       setTimeout(() => {
         Toast.hide()
-      }, 3000)
+      }, 100000)
     },
   },
 }
-</script>
+
+</script>
